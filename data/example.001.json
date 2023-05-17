@@ -1,0 +1,286 @@
+{
+  "file": {
+    "_attributes": {
+      "path": "data/example.001.txt"
+    },
+    "node": {
+      "_attributes": {
+        "value": "ROOT"
+      },
+      "node": {
+        "_attributes": {
+          "value": "S"
+        },
+        "node": [
+          {
+            "_attributes": {
+              "value": "NP"
+            },
+            "node": {
+              "_attributes": {
+                "value": "DT"
+              },
+              "leaf": {
+                "_attributes": {
+                  "value": "This"
+                }
+              }
+            }
+          },
+          {
+            "_attributes": {
+              "value": "VP"
+            },
+            "node": [
+              {
+                "_attributes": {
+                  "value": "VBZ"
+                },
+                "leaf": {
+                  "_attributes": {
+                    "value": "is"
+                  }
+                }
+              },
+              {
+                "_attributes": {
+                  "value": "NP"
+                },
+                "node": [
+                  {
+                    "_attributes": {
+                      "value": "NP"
+                    },
+                    "node": [
+                      {
+                        "_attributes": {
+                          "value": "NP"
+                        },
+                        "node": [
+                          {
+                            "_attributes": {
+                              "value": "DT"
+                            },
+                            "leaf": {
+                              "_attributes": {
+                                "value": "a"
+                              }
+                            }
+                          },
+                          {
+                            "_attributes": {
+                              "value": "JJ"
+                            },
+                            "leaf": {
+                              "_attributes": {
+                                "value": "simple"
+                              }
+                            }
+                          },
+                          {
+                            "_attributes": {
+                              "value": "NN"
+                            },
+                            "leaf": {
+                              "_attributes": {
+                                "value": "text"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "_attributes": {
+                          "value": "PP"
+                        },
+                        "node": [
+                          {
+                            "_attributes": {
+                              "value": "IN"
+                            },
+                            "leaf": {
+                              "_attributes": {
+                                "value": "in"
+                              }
+                            }
+                          },
+                          {
+                            "_attributes": {
+                              "value": "NP"
+                            },
+                            "node": {
+                              "_attributes": {
+                                "value": "NNP"
+                              },
+                              "leaf": {
+                                "_attributes": {
+                                  "value": "English"
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "_attributes": {
+                      "value": "SBAR"
+                    },
+                    "node": [
+                      {
+                        "_attributes": {
+                          "value": "WHNP"
+                        },
+                        "node": {
+                          "_attributes": {
+                            "value": "WDT"
+                          },
+                          "leaf": {
+                            "_attributes": {
+                              "value": "that"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "_attributes": {
+                          "value": "S"
+                        },
+                        "node": {
+                          "_attributes": {
+                            "value": "VP"
+                          },
+                          "node": [
+                            {
+                              "_attributes": {
+                                "value": "MD"
+                              },
+                              "leaf": {
+                                "_attributes": {
+                                  "value": "should"
+                                }
+                              }
+                            },
+                            {
+                              "_attributes": {
+                                "value": "VP"
+                              },
+                              "node": [
+                                {
+                                  "_attributes": {
+                                    "value": "VB"
+                                  },
+                                  "leaf": {
+                                    "_attributes": {
+                                      "value": "be"
+                                    }
+                                  }
+                                },
+                                {
+                                  "_attributes": {
+                                    "value": "ADJP"
+                                  },
+                                  "node": [
+                                    {
+                                      "_attributes": {
+                                        "value": "RB"
+                                      },
+                                      "leaf": {
+                                        "_attributes": {
+                                          "value": "easily"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "_attributes": {
+                                        "value": "JJ"
+                                      },
+                                      "leaf": {
+                                        "_attributes": {
+                                          "value": "parseable"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "_attributes": {
+                                        "value": "PP"
+                                      },
+                                      "node": [
+                                        {
+                                          "_attributes": {
+                                            "value": "IN"
+                                          },
+                                          "leaf": {
+                                            "_attributes": {
+                                              "value": "for"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "_attributes": {
+                                            "value": "NP"
+                                          },
+                                          "node": [
+                                            {
+                                              "_attributes": {
+                                                "value": "DT"
+                                              },
+                                              "leaf": {
+                                                "_attributes": {
+                                                  "value": "this"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "_attributes": {
+                                                "value": "JJ"
+                                              },
+                                              "leaf": {
+                                                "_attributes": {
+                                                  "value": "big"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "_attributes": {
+                                                "value": "NN"
+                                              },
+                                              "leaf": {
+                                                "_attributes": {
+                                                  "value": "software"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_attributes": {
+              "value": "."
+            },
+            "leaf": {
+              "_attributes": {
+                "value": "."
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
