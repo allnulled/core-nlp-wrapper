@@ -2,12 +2,13 @@
   "name": "core-nlp-wrapper",
   "version": "1.0.0",
   "description": "Stanford Lexicalized Parser v4.2.1",
-  "main": "core-nlp-wrapper.bin.js",
+  "main": "core-nlp-wrapper.js",
   "bin": {
     "parse_natural_file": "core-nlp-wrapper.bin.js"
   },
   "scripts": {
-    "test": "node core-nlp-wrapper.bin.js data/testsent.txt"
+    "test": "node core-nlp-wrapper.bin.js data/testsent.txt",
+    "test:2": "node test/example.001.js"
   },
   "keywords": [],
   "author": "",
