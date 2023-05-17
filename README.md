@@ -139,9 +139,3 @@ console.log(analisis_gramatical);
 | ref | referent |
 | sdep | semantic dependent |
 | xsubj | controlling subject |
-
-## Notas
-
-Hace años que sé que existe este software. Simplemente, Castelog es: de lógico a natural. Esto es: de natural a lógico. Pero claro, la complejidad de esta segunda aproximación al tema, requiere de una historieta más grande y seria. ESO hace que uno sospeche más, claro, obvio. De que algo está sucediendo. De que *there's a natural mystic blowing through the air*. ¿O no? Es decir, Castelog era mucho más fácil, pero mucho más. ¬¬ ¿Hay gato encerrado?
-
-No nos enfademos. Seamos amigos, universidades, omnisciencia.
