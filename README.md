@@ -49,6 +49,8 @@ En `file.json` encontraremos la salida del procesamiento, en un JSON, que repres
 
 ## Ejecución vía API de Node.js
 
+Desde un fichero js solo tienes que:
+
 ```js
 (async () => {
     try {
