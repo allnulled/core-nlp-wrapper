@@ -12,6 +12,12 @@ Esto instalará el binario `parse_natural_file` y lo dejará usable desde línea
 
 ## Completar la instalación
 
+Primero, situar la página donde están todas las versiones históricas de este software. Y es aquí:
+
+  - [https://stanfordnlp.github.io/CoreNLP/history.html](https://stanfordnlp.github.io/CoreNLP/history.html)
+
+Nosotros, en un primer momento, estamos usando la versión `4.2.1`.
+
 ### El fichero perdido
 
 Bueno, es un proyecto un poco especial, porque requiere de ficheros grandes. Y hay un problema: Github pone un límite de espacio por fichero para alojar. Y en el proyecto, hay 1 fichero que sobrepasa este límite. Ese fichero, en la instalación con `npm` de `core-nlp-wrapper`, no está incluído.
@@ -24,6 +30,10 @@ Por todo esto, hay que descargarse este zip de aquí:
   - 4) Pegarlo en el directorio `node_modules/core-nlp-wrapper/`.
 
 Así, entonces, el comando de consola: `parse_natural_file file.txt` debería encontrar todos los ficheros que va a requerir del proyecto.
+
+### El fichero para castellano
+
+Para este proyecto, creo que no voy a dar soporte en castellano, tristemente. Creo que en castellano no está tan bien hecho, tristemente. Quería hacerlo, pero me temo que no es tan buena idea, y que mejor se queda en inglés. Al menos, este.
 
 ### El binario de Java
 
@@ -49,22 +59,28 @@ En `file.json` encontraremos la salida del procesamiento, en un JSON, que repres
 
 ## Ejecución vía API de Node.js
 
-Desde un fichero js solo tienes que:
+Puedes analizar textos: (o ver `test/example.002.js`)
 
 ```js
-(async () => {
-    try {
-        // Primero, tienes que tener el texto en un fichero:
-        require("fs").writeFileSync("file.txt", "This is a simple text in a file, written in English, that will be easily parsed by this monster from Stanford.", "utf8");
-        // Segundo, puedes pasarle el nombre del fichero al módulo:
-        const analizador_gramatical = require("core-nlp-wrapper");
-        const analisis_gramatical = await analizador_gramatical("file.txt");
-        // Voilá, el análisis gramatical ha sido efectuado:
-        console.log(analisis_gramatical);
-    } catch(error) {
-        console.log(error);
-    }
-})();
+const analizador_gramatical = require("core-nlp-wrapper");
+const analisis_gramatical = await analizador_gramatical.parse_text("This sentence should be parsed blazing fast by the library.");
+console.log(analisis_gramatical);
+```
+
+Y puedes analizar ficheros: (o ver `test/example.001.js`)
+
+```js
+// 1: Preparas el fichero
+const fs = require("fs");
+const file = "file.txt";
+const text = "This is a simple text in a file, written in English, that will be easily parsed by this monster from Stanford.";
+fs.writeFileSync(file, text, "utf8");
+
+// 2: Lo analizas
+const analizador_gramatical = require("core-nlp-wrapper");
+const analisis_gramatical = await analizador_gramatical.parse_file(file);
+
+console.log(analisis_gramatical);
 ```
 
 ## Tabla de categorías

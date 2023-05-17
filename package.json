@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "node core-nlp-wrapper.bin.js data/testsent.txt",
-    "test:2": "node test/example.001.js"
+    "test:2": "node test/example.*.js"
   },
   "keywords": [],
   "author": "",
