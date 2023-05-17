@@ -1,6 +1,6 @@
 {
   "name": "core-nlp-wrapper",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Stanford Lexicalized Parser v4.2.1",
   "main": "core-nlp-wrapper.js",
   "bin": {
