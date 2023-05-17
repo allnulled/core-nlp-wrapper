@@ -139,3 +139,7 @@ console.log(analisis_gramatical);
 | ref | referent |
 | sdep | semantic dependent |
 | xsubj | controlling subject |
+
+## Versiones
+
+La mínima versión que te diría de usar es la `1.1.0`. Y de momento es la última, así que tampoco es muy fiable. Pero tiene unos tests, y en mi PC los pasa. Con `npm run test`.
